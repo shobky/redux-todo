@@ -29,7 +29,7 @@ export default function AddTodo() {
       {adding && (
         <div className="bg-black absolute w-full h-full top-0 left-0 opacity-20 blur-md "></div>
       )}
-      <div className={ `${adding ? "bg-white shadow-2xl absolute top-0  w-full left-0  p-6 rounded-b-[25px] mt-0" : " absolute -top-[60vh]"} ease-in-out duration-150` }>
+      <div className={ `${adding ? "bg-white shadow-2xl absolute top-0  w-full left-0  p-6 rounded-b-[25px] mt-0" : " absolute -top-[35rem]"} ease-in-out duration-150` }>
         <h1 className="font-semibold text-center text-xl text-stone-700">
           New Task
         </h1>
